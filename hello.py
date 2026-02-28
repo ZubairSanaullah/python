@@ -1,5 +1,15 @@
-def main():
-    print("Hello, World!")
-    print("Welcome to Python programming.")
+# def main():
+#     print("Hello, World!")
+#     print("Welcome to Python programming.")
 
-main()
+# main()
+
+name = input("What's your name? ")
+
+name = name.strip().title()
+
+print(f"Hello, {name}!")
+
+# Double quotes
+print('Hello, "friend"!')
+print('Hello, \"friend\"!')
